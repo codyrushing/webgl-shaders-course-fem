@@ -1,0 +1,24 @@
+{
+  "name": "webgl-shaders-course-fem",
+  "version": "1.0.0",
+  "description": "https://frontendmasters.com/courses/webgl-shaders/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyrushing/webgl-shaders-course-fem.git"
+  },
+  "author": "codyrushing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codyrushing/webgl-shaders-course-fem/issues"
+  },
+  "homepage": "https://github.com/codyrushing/webgl-shaders-course-fem#readme",
+  "dependencies": {
+    "canvas-sketch": "^0.7.4",
+    "canvas-sketch-cli": "^1.11.14",
+    "three": "^0.131.3"
+  }
+}
