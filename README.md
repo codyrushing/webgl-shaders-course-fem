@@ -52,6 +52,6 @@ There are also `attribute` variables which can be unique to the pixel/vertex.  A
 When using a Three.js shader, you get some built in uniforms `projectionMatrix` and attributes `position` and `uv`.
 
 #### The rendering pipeline
-* First there is data for a geometry (in our case, from a Three.js geometry)
-* That gets passed to the vertex shader, which determins vertices
-* Those vertices can be passed to the fragment shader which does the real "rendering".
+* First there is data for a geometry (in our case, from a Three.js geometry). This defines any `attribute` variables that come from the geometry, and the JS caller can define any `uniform` variables.
+* That gets passed to the vertex shader, which determins vertices.  Vertex shaders can also define any `varying` values that can be passed into the fragment shader.
+* Those vertices can be passed to the fragment shader which does the real "rendering".  
